@@ -10,10 +10,10 @@
   "author": "Victor Delgado",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^5.0.8",
-    "node-static": "^0.7.11"
+    "babel": "^5.0.8"
   },
   "dependencies": {
-    "http-server": "^0.12.1"
+    "http-server": "^0.12.1",
+    "node-static": "^0.7.11"
   }
 }
