@@ -3,7 +3,7 @@ import url from 'url';
 import { questions, answers } from './cards';
 
 var nStatic = require('node-static');
-var fileServer = new nStatic.Server('./public');
+var fileServer = new nStatic.Server('../loaderio-1212ad9a809c470d05da15ff7dea105c');
 
 const { floor: floor, random: random } = Math;
 const nquestions = questions.length, nanswers = answers.length;
@@ -21,7 +21,7 @@ http.createServer((req, res) => {
     res.write(answer());
   else if (path === '/pick')
     res.write(JSON.stringify(pick()));
-  else if (path === '/loaderio-1212ad9a809c470d05da15ff7dea105c')
+  else if (path === '../loaderio-1212ad9a809c470d05da15ff7dea105c')
     fileServer.serve(req, res);
   else
     res.write(`USAGE:
