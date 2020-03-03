@@ -10,6 +10,7 @@
   "author": "Victor Delgado",
   "license": "MIT",
   "devDependencies": {
-    "babel": "^5.0.8"
+    "babel": "^5.0.8",
+    "node-static": "^0.7.11"
   }
 }
